@@ -29,7 +29,7 @@ pkg update -y && pkg install -y git python nodejs python-cryptography
 使用 GitHub 镜像节点拉取代码，防止网络问题导致拉取失败或找不到文件夹。
 
 ```bash
-cd ~ && git clone https://github.com/liuyunyun1hao/yunyun2.git
+cd ~ && git clone https://github.com/g1i2t3h4u5b-bot/phone-new-new.git
 ```
 
 第三步：安装剩余的 Python 轻量依赖
@@ -43,13 +43,13 @@ cd ~/yunyun2 && pip install flask requests
 环境全部配置完毕！直接使用 Python 运行主程序服务：
 
 ```bash
-cd ~/yunyun2 && python proxy_server.py
+cd ~/phone-new-new && python proxy_server.py
 ```
 
 💡 日常使用提示
 为了保持系统的干净纯粹，本项目没有强制设置开机自启或快捷指令。以后每次重新打开 Termux 想要启动面板时，只需要输入以下命令即可：
 
 ```bash
-cd ~/yunyun2 && python proxy_server.py
+cd ~/phone-new-new && python proxy_server.py
 ```
 
